@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Character Personality Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1>Which Disney Character Are You?</h1>
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-grid">
+                </div>
+            </div>
+            <div id="controls">
+                <button id="next-btn" class="control-btn">Next</button>
+            </div>
+        </div>
+        
+        <div id="result-container" class="hide">
+            <h2>Your Disney Character Match</h2>
+            <div id="character-result">
+                <img id="character-image" src="" alt="Disney Character">
+                <h3 id="character-name"></h3>
+                <p id="character-description"></p>
+                <div id="character-traits"></div>
+            </div>
+            <div class="result-buttons">
+                <button id="restart-btn" class="control-btn">Take Quiz Again</button>
+                <a id="chat-link" href="chat.html" class="control-btn">Join Chat Room</a>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
